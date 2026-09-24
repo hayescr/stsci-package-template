@@ -19,6 +19,7 @@ Then, `cd` to the newly-generated package directory and initialize version contr
 ```shell
 cd my_package/
 git init
+git add .
 git commit -am "cookiecutter'd files"
 ```
 
