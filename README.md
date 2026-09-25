@@ -14,6 +14,9 @@ run the following, and answer the prompts:
 cruft create https://github.com/spacetelescope/stsci-package-template.git --directory python-package
 ```
 
+For more information on the template options see 
+[Cookiecutter Template Options](https://spacetelescope.github.io/stsci-package-template/options).
+
 Then, `cd` to the newly-generated package directory and initialize version control:
 
 ```shell
@@ -26,6 +29,9 @@ git commit -am "cookiecutter'd files"
 This template [includes a GitHub Actions workflow](/templates/.github/workflows/update.yml) that
 [runs Cruft to automatically check for updates](https://cruft.github.io/cruft/#updating-a-project).
 You can also do this manually with `cruft update`.
+
+See [Recommended GitHub Repository Settings](https://spacetelescope.github.io/stsci-package-template/github)
+for additional recommendations on how to set up your new GitHub repository.
 
 ## Acknowledgements
 
